@@ -1,0 +1,24 @@
+@import "./_variables.scss";
+
+.culture{
+    display: flex;
+    justify-content: space-around;
+}
+
+.culture-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.culture-gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.culture-gallery-images{
+    height: 10rem;
+}
