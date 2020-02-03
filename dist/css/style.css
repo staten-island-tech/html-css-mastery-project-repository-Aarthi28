@@ -1,9 +1,3 @@
-/* $colors: (
-    primary: 
-) */
-/* $colors: (
-    primary: 
-) */
 .intro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,15 +6,31 @@
       justify-content: space-around;
 }
 
-/* $colors: (
-    primary: 
-) */
 .culture {
+  background-color: rgba(205, 220, 57, 0.4);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding: 1rem;
+  height: 25rem;
+}
+
+@media (min-width: 600px) {
+  .culture {
+    height: 18rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .culture {
+    height: 20rem;
+  }
 }
 
 .culture-text {
@@ -34,9 +44,13 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin: 0.5rem 1rem;
+}
+
+@media (min-width: 900px) {
+  .culture-text {
+    font-size: 1.5rem;
+  }
 }
 
 .culture-gallery {
@@ -54,19 +68,57 @@
           align-items: center;
 }
 
-.culture-gallery-images {
-  height: 10rem;
+@media (min-width: 600px) {
+  .culture-gallery {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
-/* $colors: (
-    primary: 
-) */
-/* $colors: (
-    primary: 
-) */
-/* $colors: (
-    primary: 
-) */
+@media (min-width: 900px) {
+  .culture-gallery {
+    margin: 1rem;
+  }
+}
+
+.culture-gallery-images {
+  height: 8rem;
+  width: 12rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  outline-offset: 0.2rem;
+}
+
+@media (min-width: 600px) {
+  .culture-gallery-images {
+    height: 10rem;
+    width: 14rem;
+    padding: 0.4rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .culture-gallery-images {
+    height: 13rem;
+    width: 20rem;
+  }
+}
+
+.culture-gallery-images:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  outline: 0.4rem solid #303F9F;
+  z-index: 1;
+}
+
+.culture-gallery-images:not(:hover) {
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+  opacity: 0.5;
+}
+
 html {
   font-size: 62.5%;
   padding: 0;
