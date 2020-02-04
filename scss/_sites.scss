@@ -1,1 +1,44 @@
 @import "./_variables.scss";
+
+.sites{
+    background-color: rgba(color(secondary), 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    height: 38rem;
+    @include tablet{
+        height: 17rem;
+    }
+    @include laptop{
+        height: 20rem;
+    }
+}
+
+.sites-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    @include tablet{
+        flex-direction: row;
+    }
+    @include laptop{
+        margin: 1rem;
+    }
+}
+
+.sites-gallery-images{
+    height: 10rem;
+    width: 14rem;
+    padding: 1rem;
+    @include tablet{
+        height: 10rem;
+        width: 14rem;
+    }
+    @include laptop{
+        height: 17rem;
+        width: 25rem;
+    }
+}
