@@ -21,12 +21,6 @@
   height: 25rem;
 }
 
-@media (min-width: 600px) {
-  .culture {
-    height: 18rem;
-  }
-}
-
 @media (min-width: 900px) {
   .culture {
     height: 20rem;
@@ -48,9 +42,15 @@
   font-size: 1.05rem;
 }
 
+@media (min-width: 600px) {
+  .culture-text {
+    font-size: 1.2rem;
+  }
+}
+
 @media (min-width: 900px) {
   .culture-text {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -102,8 +102,8 @@
 
 @media (min-width: 900px) {
   .culture-gallery-images {
-    height: 13rem;
-    width: 20rem;
+    height: 15rem;
+    width: 22rem;
   }
 }
 
@@ -132,18 +132,35 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 1rem;
-  height: 38rem;
+  height: 37rem;
 }
 
 @media (min-width: 600px) {
   .sites {
-    height: 17rem;
+    height: 34rem;
   }
 }
 
 @media (min-width: 900px) {
   .sites {
-    height: 20rem;
+    height: 28rem;
+  }
+}
+
+.sites-text {
+  margin: 0.5rem 1rem;
+  font-size: 1.05rem;
+}
+
+@media (min-width: 600px) {
+  .sites-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .sites-text {
+    font-size: 1.7rem;
   }
 }
 
@@ -180,15 +197,16 @@
 }
 
 .sites-gallery-images {
-  height: 10rem;
+  height: 9rem;
   width: 14rem;
   padding: 1rem;
 }
 
 @media (min-width: 600px) {
   .sites-gallery-images {
-    height: 10rem;
-    width: 14rem;
+    height: 12rem;
+    width: 18rem;
+    padding: 1.2rem;
   }
 }
 

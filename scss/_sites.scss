@@ -6,13 +6,24 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 1rem;
-    height: 38rem;
+    height: 37rem;
     @include tablet{
-        height: 17rem;
+        height: 34rem;
     }
     @include laptop{
-        height: 20rem;
+        height: 28rem;
     }
+}
+
+.sites-text{
+    margin: 0.5rem 1rem;
+    font-size: 1.05rem;
+    @include tablet{
+        font-size: 1.2rem;
+     } 
+    @include laptop{
+       font-size: 1.7rem;
+    } 
 }
 
 .sites-gallery{
@@ -30,12 +41,13 @@
 }
 
 .sites-gallery-images{
-    height: 10rem;
+    height: 9rem;
     width: 14rem;
     padding: 1rem;
     @include tablet{
-        height: 10rem;
-        width: 14rem;
+        height: 12rem;
+        width: 18rem;
+        padding: 1.2rem;
     }
     @include laptop{
         height: 17rem;
