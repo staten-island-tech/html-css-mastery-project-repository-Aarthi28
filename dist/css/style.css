@@ -179,6 +179,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 @media (min-width: 600px) {
@@ -215,6 +216,137 @@
     height: 17rem;
     width: 25rem;
   }
+}
+
+.sites-gallery-text {
+  position: absolute;
+  opacity: 0;
+  color: black;
+  height: 31rem;
+  width: 31rem;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 600px) {
+  .sites-gallery-text {
+    height: 12rem;
+    width: 18rem;
+    padding: 1.2rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .sites-gallery-text {
+    height: 17rem;
+    width: 25rem;
+    font-size: 1.8rem;
+  }
+}
+
+.sites-gallery-text-taj {
+  top: 3rem;
+  left: 5rem;
+}
+
+@media (min-width: 600px) {
+  .sites-gallery-text-taj {
+    top: 4rem;
+    left: 7.8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .sites-gallery-text-taj {
+    top: 6rem;
+    left: 9.5rem;
+  }
+}
+
+.sites-gallery-text-gateway {
+  top: 3rem;
+  left: 20rem;
+}
+
+@media (min-width: 600px) {
+  .sites-gallery-text-gateway {
+    top: 4rem;
+    left: 30rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .sites-gallery-text-gateway {
+    top: 6rem;
+    left: 36rem;
+  }
+}
+
+.sites-gallery-text-fort {
+  top: 14rem;
+  left: 5rem;
+}
+
+@media (min-width: 600px) {
+  .sites-gallery-text-fort {
+    top: 4rem;
+    left: 57rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .sites-gallery-text-fort {
+    top: 6rem;
+    left: 68.5rem;
+  }
+}
+
+.sites-gallery-text-temple {
+  top: 14rem;
+  left: 21rem;
+}
+
+@media (min-width: 600px) {
+  .sites-gallery-text-temple {
+    top: 18rem;
+    left: 12rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .sites-gallery-text-temple {
+    top: 6rem;
+    left: 95.5rem;
+  }
+}
+
+.sites-gallery-text-ganga {
+  top: 25rem;
+  left: 13rem;
+}
+
+@media (min-width: 600px) {
+  .sites-gallery-text-ganga {
+    top: 18rem;
+    left: 49.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .sites-gallery-text-ganga {
+    top: 6rem;
+    left: 125.5rem;
+  }
+}
+
+.sites-gallery:hover .sites-gallery-text {
+  opacity: 1;
+}
+
+.sites-gallery:hover .sites-gallery-images {
+  -webkit-filter: blur(0.2rem);
+          filter: blur(0.2rem);
 }
 
 html {
