@@ -345,8 +345,8 @@
 }
 
 .sites-gallery:hover .sites-gallery-images {
-  -webkit-filter: blur(0.2rem);
-          filter: blur(0.2rem);
+  -webkit-filter: blur(0.4rem);
+          filter: blur(0.4rem);
 }
 
 html {
