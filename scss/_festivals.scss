@@ -1,1 +1,26 @@
 @import "./_variables.scss";
+
+.festivals{
+    background-color: rgba(color(accent), 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    height: 95rem;
+    @include tablet{
+        height: 78rem;
+    }
+    @include laptop{
+        height: 72rem;
+    }
+}
+
+.festivals-cards{
+    background-color: rgba(color(gray), 0.4);
+    display: flex;
+    width: 15rem;
+}
+
+.festivals-cards-side-front-images{
+    height: 10rem;
+}
