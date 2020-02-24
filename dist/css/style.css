@@ -260,6 +260,13 @@
 @media (min-width: 900px) {
   .sites-gallery-text-taj {
     top: 6rem;
+    left: 9.5rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .sites-gallery-text-taj {
+    top: 6rem;
     left: 13rem;
   }
 }
@@ -277,6 +284,13 @@
 }
 
 @media (min-width: 900px) {
+  .sites-gallery-text-gateway {
+    top: 6rem;
+    left: 47.5rem;
+  }
+}
+
+@media (min-width: 1100px) {
   .sites-gallery-text-gateway {
     top: 6rem;
     left: 47.5rem;
@@ -302,6 +316,13 @@
   }
 }
 
+@media (min-width: 1100px) {
+  .sites-gallery-text-fort {
+    top: 6rem;
+    left: 88rem;
+  }
+}
+
 .sites-gallery-text-temple {
   top: 14rem;
   left: 21rem;
@@ -315,6 +336,13 @@
 }
 
 @media (min-width: 900px) {
+  .sites-gallery-text-temple {
+    top: 6rem;
+    left: 122.5rem;
+  }
+}
+
+@media (min-width: 1100px) {
   .sites-gallery-text-temple {
     top: 6rem;
     left: 122.5rem;
@@ -340,6 +368,13 @@
   }
 }
 
+@media (min-width: 1100px) {
+  .sites-gallery-text-ganga {
+    top: 6rem;
+    left: 160.5rem;
+  }
+}
+
 .sites-gallery:hover .sites-gallery-text {
   opacity: 1;
 }
@@ -358,21 +393,36 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   padding: 1rem;
-  height: 88rem;
+  height: 65rem;
 }
 
 @media (min-width: 600px) {
   .festivals {
-    height: 50rem;
+    height: 44rem;
   }
 }
 
 @media (min-width: 900px) {
   .festivals {
-    height: 30rem;
+    height: 50rem;
+  }
+}
+
+.festivals-text {
+  margin: 0.5rem 1rem;
+  font-size: 1.05rem;
+}
+
+@media (min-width: 600px) {
+  .festivals-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .festivals-text {
+    font-size: 1.7rem;
   }
 }
 
@@ -382,22 +432,177 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  text-align: center;
+  position: relative;
+}
+
+.festivals-cards-diwali {
+  left: 0.1rem;
+}
+
+@media (min-width: 600px) {
+  .festivals-cards-diwali {
+    left: 1rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .festivals-cards-diwali {
+    left: 10.05rem;
+  }
+}
+
+.festivals-cards-holi {
+  left: 17.1rem;
+}
+
+@media (min-width: 600px) {
+  .festivals-cards-holi {
+    left: 19rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .festivals-cards-holi {
+    left: 45.1rem;
+  }
+}
+
+.festivals-cards-independence {
+  top: 30.1rem;
+}
+
+@media (min-width: 600px) {
+  .festivals-cards-independence {
+    top: 0rem;
+    left: 37rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .festivals-cards-independence {
+    left: 80.15rem;
+  }
+}
+
+.festivals-cards-rakhi {
+  top: 30.1rem;
+  left: 17.1rem;
+}
+
+@media (min-width: 600px) {
+  .festivals-cards-rakhi {
+    top: 0rem;
+    left: 55rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .festivals-cards-rakhi {
+    left: 115.2rem;
+  }
+}
+
+.festivals-cards-side {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .festivals-cards-side-front {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
   background-color: rgba(255, 255, 255, 0.4);
-  width: 15rem;
-  text-align: center;
+  height: 29rem;
+  width: 16.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  font-size: 0.95rem;
+}
+
+@media (min-width: 600px) {
+  .festivals-cards-side-front {
+    font-size: 1rem;
+    height: 37rem;
+    width: 17rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .festivals-cards-side-front {
+    font-size: 1.5rem;
+    height: 42rem;
+    width: 22rem;
+  }
 }
 
 .festivals-cards-side-back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
   background-color: rgba(128, 128, 128, 0.4);
-  width: 15rem;
+  height: 27rem;
+  width: 14.5rem;
+  padding: 1rem;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  font-size: 1.1rem;
+}
+
+@media (min-width: 600px) {
+  .festivals-cards-side-back {
+    font-size: 1.25rem;
+    height: 35rem;
+    width: 15rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .festivals-cards-side-back {
+    font-size: 1.48rem;
+    height: 40rem;
+    width: 20rem;
+  }
 }
 
 .festivals-cards-side-front-images {
   height: 10rem;
   width: 14rem;
+}
+
+@media (min-width: 900px) {
+  .festivals-cards-side-front-images {
+    height: 15rem;
+    width: 19rem;
+  }
+}
+
+.festivals-cards:hover .festivals-cards-side-front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.festivals-cards:hover .festivals-cards-side-back {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
 }
 
 html {
