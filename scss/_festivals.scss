@@ -10,7 +10,7 @@
         height: 44rem;
     }
     @include laptop{
-        height: 50rem;
+        height: 55rem;
     }
 }
 
@@ -38,7 +38,7 @@
         left: 1rem;
     }
     @include laptop{
-        left: 10.05rem;
+        left: 22.05rem;
     }
 }
 
@@ -48,7 +48,7 @@
         left: 19rem;
     }
     @include laptop{
-        left: 45.1rem;
+        left: 60.1rem;
     }
 }
 
@@ -59,7 +59,7 @@
         left: 37rem;
     }
     @include laptop{
-        left: 80.15rem;
+        left: 97.15rem;
     }
 }
 
@@ -71,7 +71,7 @@
         left: 55rem;
     }
     @include laptop{
-        left: 115.2rem;
+        left: 134.2rem;
     }
 }
 
@@ -96,9 +96,9 @@
         width: 17rem;
      } 
     @include laptop{
-       font-size: 1.5rem;
-       height: 42rem;
-       width: 22rem;
+       font-size: 1.6rem;
+       height: 46rem;
+       width: 26rem;
     } 
 }
 
@@ -120,8 +120,8 @@
      } 
     @include laptop{
        font-size: 1.48rem;
-       height: 40rem;
-       width: 20rem;
+       height: 44rem;
+       width: 24rem;
     } 
 }
 
@@ -129,8 +129,8 @@
     height: 10rem;
     width: 14rem; 
     @include laptop{
-        height: 15rem;
-        width: 19rem;
+        height: 19rem;
+        width: 23rem;
     }
 }
 

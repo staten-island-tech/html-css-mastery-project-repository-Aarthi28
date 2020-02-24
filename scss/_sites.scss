@@ -86,10 +86,6 @@
     }
     @include laptop{
         top: 6rem;
-        left: 9.5rem;
-    }
-    @include desktop{
-        top: 6rem;
         left: 13rem;
     }
 }
@@ -101,10 +97,6 @@
         left: 30rem;
     }
     @include laptop{
-        top: 6rem;
-        left: 47.5rem;
-    }
-    @include desktop{
         top: 6rem;
         left: 47.5rem;
     }
@@ -120,10 +112,6 @@
         top: 6rem;
         left: 88rem;
     }
-    @include desktop{
-        top: 6rem;
-        left: 88rem;
-    }
 }
 .sites-gallery-text-temple{
     top: 14rem;
@@ -136,10 +124,6 @@
         top: 6rem;
         left: 122.5rem;
     }
-    @include desktop{
-        top: 6rem;
-        left: 122.5rem;
-    }
 }
 .sites-gallery-text-ganga{
     top: 25rem;
@@ -149,10 +133,6 @@
         left: 49.5rem;
     }
     @include laptop{
-        top: 6rem;
-        left: 160.5rem;
-    }
-    @include desktop{
         top: 6rem;
         left: 160.5rem;
     }

@@ -260,13 +260,6 @@
 @media (min-width: 900px) {
   .sites-gallery-text-taj {
     top: 6rem;
-    left: 9.5rem;
-  }
-}
-
-@media (min-width: 1100px) {
-  .sites-gallery-text-taj {
-    top: 6rem;
     left: 13rem;
   }
 }
@@ -284,13 +277,6 @@
 }
 
 @media (min-width: 900px) {
-  .sites-gallery-text-gateway {
-    top: 6rem;
-    left: 47.5rem;
-  }
-}
-
-@media (min-width: 1100px) {
   .sites-gallery-text-gateway {
     top: 6rem;
     left: 47.5rem;
@@ -316,13 +302,6 @@
   }
 }
 
-@media (min-width: 1100px) {
-  .sites-gallery-text-fort {
-    top: 6rem;
-    left: 88rem;
-  }
-}
-
 .sites-gallery-text-temple {
   top: 14rem;
   left: 21rem;
@@ -342,13 +321,6 @@
   }
 }
 
-@media (min-width: 1100px) {
-  .sites-gallery-text-temple {
-    top: 6rem;
-    left: 122.5rem;
-  }
-}
-
 .sites-gallery-text-ganga {
   top: 25rem;
   left: 13rem;
@@ -362,13 +334,6 @@
 }
 
 @media (min-width: 900px) {
-  .sites-gallery-text-ganga {
-    top: 6rem;
-    left: 160.5rem;
-  }
-}
-
-@media (min-width: 1100px) {
   .sites-gallery-text-ganga {
     top: 6rem;
     left: 160.5rem;
@@ -405,7 +370,7 @@
 
 @media (min-width: 900px) {
   .festivals {
-    height: 50rem;
+    height: 55rem;
   }
 }
 
@@ -448,7 +413,7 @@
 
 @media (min-width: 900px) {
   .festivals-cards-diwali {
-    left: 10.05rem;
+    left: 22.05rem;
   }
 }
 
@@ -464,7 +429,7 @@
 
 @media (min-width: 900px) {
   .festivals-cards-holi {
-    left: 45.1rem;
+    left: 60.1rem;
   }
 }
 
@@ -481,7 +446,7 @@
 
 @media (min-width: 900px) {
   .festivals-cards-independence {
-    left: 80.15rem;
+    left: 97.15rem;
   }
 }
 
@@ -499,7 +464,7 @@
 
 @media (min-width: 900px) {
   .festivals-cards-rakhi {
-    left: 115.2rem;
+    left: 134.2rem;
   }
 }
 
@@ -540,9 +505,9 @@
 
 @media (min-width: 900px) {
   .festivals-cards-side-front {
-    font-size: 1.5rem;
-    height: 42rem;
-    width: 22rem;
+    font-size: 1.6rem;
+    height: 46rem;
+    width: 26rem;
   }
 }
 
@@ -578,8 +543,8 @@
 @media (min-width: 900px) {
   .festivals-cards-side-back {
     font-size: 1.48rem;
-    height: 40rem;
-    width: 20rem;
+    height: 44rem;
+    width: 24rem;
   }
 }
 
@@ -590,8 +555,8 @@
 
 @media (min-width: 900px) {
   .festivals-cards-side-front-images {
-    height: 15rem;
-    width: 19rem;
+    height: 19rem;
+    width: 23rem;
   }
 }
 
