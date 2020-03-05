@@ -3,18 +3,39 @@
 .india{
     display: flex;
     justify-content: space-around;
-    height: 108rem;
+    height: 90.5%;
+    padding: 1rem;
+    @include tablet{
+        height: 71%;
+    }
+    @include laptop{
+        background-color: rgba(color(accent), 0.4);
+        height: 73.45rem;
+    }
 }
 
 .india-title{
     z-index: 1;
     position: relative;
-    font-size: 15rem;
-    top: 5rem;
+    font-size: 12rem;
+    top: -2%;
+    @include tablet{
+        font-size: 13rem;
+    }
+    @include laptop{
+        font-size: 14rem;
+    }
 }
 
 .india-video{
     object-fit: contain;
     position: absolute;
-    //width: 10rem;
+    opacity: 0.8;
+    height: 90%;
+    @include tablet{
+        height: 71%;
+    }
+    @include laptop{
+        height: 100%;
+    }
 }
