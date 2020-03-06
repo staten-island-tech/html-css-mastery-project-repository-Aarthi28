@@ -22,10 +22,11 @@
 }
 
 .india-title {
-  z-index: 1;
   position: relative;
   font-size: 12rem;
   top: -2%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 @media (min-width: 600px) {
@@ -58,6 +59,16 @@
   .india-video {
     height: 100%;
   }
+}
+
+.india-text-box {
+  z-index: 1;
+  height: 35%;
+}
+
+.india-text-box:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .culture {

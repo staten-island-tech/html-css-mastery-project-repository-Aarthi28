@@ -15,10 +15,10 @@
 }
 
 .india-title{
-    z-index: 1;
     position: relative;
     font-size: 12rem;
     top: -2%;
+    transition: all 0.3s;
     @include tablet{
         font-size: 13.5rem;
     }
@@ -38,4 +38,13 @@
     @include laptop{
         height: 100%;
     }
+}
+
+.india-text-box{
+    z-index: 1;
+    height: 35%;
+}
+
+.india-text-box:hover{
+    transform: scale(1.2);
 }
