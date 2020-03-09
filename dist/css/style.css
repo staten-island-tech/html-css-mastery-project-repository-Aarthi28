@@ -311,14 +311,14 @@
 }
 
 .sites-gallery-text-taj {
-  top: 3rem;
-  left: 5rem;
+  top: 9%;
+  left: 16.5%;
 }
 
 @media (min-width: 600px) {
   .sites-gallery-text-taj {
-    top: 4rem;
-    left: 7.8rem;
+    top: 13%;
+    left: 11.5%;
   }
 }
 
@@ -330,8 +330,8 @@
 }
 
 .sites-gallery-text-gateway {
-  top: 3rem;
-  left: 20rem;
+  top: 9%;
+  left: 63.5%;
 }
 
 @media (min-width: 600px) {
@@ -349,8 +349,8 @@
 }
 
 .sites-gallery-text-fort {
-  top: 14rem;
-  left: 5rem;
+  top: 42%;
+  left: 16.5%;
 }
 
 @media (min-width: 600px) {
@@ -368,8 +368,8 @@
 }
 
 .sites-gallery-text-temple {
-  top: 14rem;
-  left: 21rem;
+  top: 42%;
+  left: 63.5%;
 }
 
 @media (min-width: 600px) {
@@ -387,8 +387,8 @@
 }
 
 .sites-gallery-text-ganga {
-  top: 25rem;
-  left: 13rem;
+  top: 76%;
+  left: 40%;
 }
 
 @media (min-width: 600px) {
