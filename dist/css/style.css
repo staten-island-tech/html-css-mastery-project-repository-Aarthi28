@@ -88,7 +88,7 @@
 
 @media (min-width: 900px) {
   .culture {
-    height: 20rem;
+    height: 28%;
   }
 }
 
@@ -115,7 +115,7 @@
 
 @media (min-width: 900px) {
   .culture-text {
-    font-size: 1.7rem;
+    font-size: 2.3rem;
   }
 }
 
@@ -208,7 +208,7 @@
 
 @media (min-width: 900px) {
   .sites {
-    height: 28rem;
+    height: 32%;
   }
 }
 
@@ -225,7 +225,7 @@
 
 @media (min-width: 900px) {
   .sites-text {
-    font-size: 1.7rem;
+    font-size: 2.3rem;
   }
 }
 
@@ -306,7 +306,7 @@
   .sites-gallery-text {
     height: 17rem;
     width: 25rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
 
@@ -435,7 +435,7 @@
 
 @media (min-width: 900px) {
   .festivals {
-    height: 55rem;
+    height: 63%;
   }
 }
 
@@ -452,7 +452,7 @@
 
 @media (min-width: 900px) {
   .festivals-text {
-    font-size: 1.7rem;
+    font-size: 2.3rem;
   }
 }
 
@@ -570,7 +570,7 @@
 
 @media (min-width: 900px) {
   .festivals-cards-side-front {
-    font-size: 1.6rem;
+    font-size: 2rem;
     height: 46rem;
     width: 26rem;
   }
@@ -607,7 +607,7 @@
 
 @media (min-width: 900px) {
   .festivals-cards-side-back {
-    font-size: 1.48rem;
+    font-size: 1.85rem;
     height: 44rem;
     width: 24rem;
   }

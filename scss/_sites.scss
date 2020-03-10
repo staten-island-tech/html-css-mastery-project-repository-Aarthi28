@@ -11,7 +11,7 @@
         height: 34rem;
     }
     @include laptop{
-        height: 28rem;
+        height: 32%;
     }
 }
 
@@ -22,7 +22,7 @@
         font-size: 1.2rem;
      } 
     @include laptop{
-       font-size: 1.7rem;
+       font-size: 2.3rem;
     } 
 }
 
@@ -73,7 +73,7 @@
     @include laptop{
         height: 17rem;
         width: 25rem;
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 }
 
