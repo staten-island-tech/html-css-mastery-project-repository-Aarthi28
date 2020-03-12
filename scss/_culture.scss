@@ -5,10 +5,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 1rem;
-    height: 25rem;
+    padding: 0rem 1rem;
+    height: 50%;
+    @include tablet{
+        height: 60%;
+    }
     @include laptop{
-        height: 28%;
+        height: 68%;
     }
 }
 
@@ -17,12 +20,12 @@
     flex-direction: column;
     justify-content: center;
     margin: 0.5rem 1rem;
-    font-size: 1.05rem;
+    font-size: 1.35rem;
     @include tablet{
-        font-size: 1.2rem;
+        font-size: 2.5rem;
      } 
     @include laptop{
-       font-size: 2.3rem;
+       font-size: 3.5rem;
     } 
 }
 
@@ -31,27 +34,25 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    @include tablet{
-        flex-direction: row;
-    }
     @include laptop{
+        flex-direction: row;
         margin: 1rem;
     }
 }
 
 .culture-gallery-images{
-    height: 8rem;
-    width: 12rem;
+    height: 10rem;
+    width: 14rem;
     transition: all 0.3s;
     outline-offset: 0.2rem;
     @include tablet{
-        height: 10rem;
-        width: 14rem;
+        height: 17rem;
+        width: 24rem;
         padding: 0.4rem;
     }
     @include laptop{
-        height: 15rem;
-        width: 22rem;
+        height: 24rem;
+        width: 32rem;
     }
 }
 .culture-gallery-images:hover {
