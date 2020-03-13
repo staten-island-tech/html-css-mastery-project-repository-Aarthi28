@@ -37,7 +37,7 @@
 
 @media (min-width: 900px) {
   .india-title {
-    font-size: 15rem;
+    font-size: 16rem;
   }
 }
 
@@ -209,24 +209,24 @@
 
 @media (min-width: 900px) {
   .sites {
-    height: 28rem;
+    height: 45%;
   }
 }
 
 .sites-text {
   margin: 0.5rem 1rem;
-  font-size: 1.05rem;
+  font-size: 1.35rem;
 }
 
 @media (min-width: 600px) {
   .sites-text {
-    font-size: 1.2rem;
+    font-size: 2.5rem;
   }
 }
 
 @media (min-width: 900px) {
   .sites-text {
-    font-size: 2.3rem;
+    font-size: 3.5rem;
   }
 }
 
@@ -279,8 +279,8 @@
 
 @media (min-width: 900px) {
   .sites-gallery-images {
-    height: 17rem;
-    width: 25rem;
+    height: 24rem;
+    width: 34rem;
   }
 }
 
@@ -307,7 +307,7 @@
   .sites-gallery-text {
     height: 17rem;
     width: 25rem;
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
@@ -325,8 +325,8 @@
 
 @media (min-width: 900px) {
   .sites-gallery-text-taj {
-    top: 6rem;
-    left: 14rem;
+    top: 8rem;
+    left: 13rem;
   }
 }
 
@@ -344,8 +344,8 @@
 
 @media (min-width: 900px) {
   .sites-gallery-text-gateway {
-    top: 6rem;
-    left: 48.5rem;
+    top: 8rem;
+    left: 45.5rem;
   }
 }
 
@@ -363,8 +363,8 @@
 
 @media (min-width: 900px) {
   .sites-gallery-text-fort {
-    top: 6rem;
-    left: 89rem;
+    top: 8rem;
+    left: 86rem;
   }
 }
 
@@ -382,8 +382,8 @@
 
 @media (min-width: 900px) {
   .sites-gallery-text-temple {
-    top: 6rem;
-    left: 123.5rem;
+    top: 8rem;
+    left: 120.5rem;
   }
 }
 
@@ -401,8 +401,8 @@
 
 @media (min-width: 900px) {
   .sites-gallery-text-ganga {
-    top: 6rem;
-    left: 161.5rem;
+    top: 8rem;
+    left: 157.5rem;
   }
 }
 
@@ -425,7 +425,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 0.5rem 1rem;
-  height: 82%;
+  height: 85%;
 }
 
 @media (min-width: 600px) {
@@ -436,13 +436,13 @@
 
 @media (min-width: 900px) {
   .festivals {
-    height: 63%;
+    height: 77%;
   }
 }
 
 .festivals-text {
   margin: 0.5rem 1rem;
-  font-size: 1.05rem;
+  font-size: 1.35rem;
 }
 
 @media (min-width: 600px) {
@@ -453,7 +453,7 @@
 
 @media (min-width: 900px) {
   .festivals-text {
-    font-size: 2.3rem;
+    font-size: 3.5rem;
   }
 }
 
@@ -479,7 +479,7 @@
 
 @media (min-width: 900px) {
   .festivals-cards-diwali {
-    left: 22.05rem;
+    left: 19.05rem;
   }
 }
 
@@ -495,7 +495,7 @@
 
 @media (min-width: 900px) {
   .festivals-cards-holi {
-    left: 60.1rem;
+    left: 57.1rem;
   }
 }
 
@@ -512,7 +512,7 @@
 
 @media (min-width: 900px) {
   .festivals-cards-independence {
-    left: 98.15rem;
+    left: 95.15rem;
   }
 }
 
@@ -530,7 +530,7 @@
 
 @media (min-width: 900px) {
   .festivals-cards-rakhi {
-    left: 136.2rem;
+    left: 133.2rem;
   }
 }
 
@@ -558,7 +558,7 @@
       -ms-flex-align: center;
           align-items: center;
   z-index: 1;
-  font-size: 0.95rem;
+  font-size: 1.25rem;
 }
 
 @media (min-width: 600px) {
@@ -571,9 +571,9 @@
 
 @media (min-width: 900px) {
   .festivals-cards-side-front {
-    font-size: 2rem;
-    height: 46rem;
-    width: 26rem;
+    font-size: 2.8rem;
+    height: 52rem;
+    width: 32rem;
   }
 }
 
@@ -595,12 +595,12 @@
   padding: 1rem;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 @media (min-width: 600px) {
   .festivals-cards-side-back {
-    font-size: 1.35rem;
+    font-size: 1.4rem;
     height: 35rem;
     width: 15rem;
   }
@@ -608,15 +608,15 @@
 
 @media (min-width: 900px) {
   .festivals-cards-side-back {
-    font-size: 1.85rem;
-    height: 44rem;
-    width: 24rem;
+    font-size: 2.3rem;
+    height: 50rem;
+    width: 30rem;
   }
 }
 
 .festivals-cards-side-front-images {
-  height: 10rem;
-  width: 14rem;
+  height: 11rem;
+  width: 15rem;
 }
 
 @media (min-width: 600px) {
@@ -628,8 +628,8 @@
 
 @media (min-width: 900px) {
   .festivals-cards-side-front-images {
-    height: 19rem;
-    width: 23rem;
+    height: 21rem;
+    width: 29rem;
   }
 }
 

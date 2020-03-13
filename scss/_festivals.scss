@@ -5,23 +5,23 @@
     display: flex;
     flex-direction: column;
     padding: 0.5rem 1rem;
-    height: 82%;
+    height: 85%;
     @include tablet{
         height: 52%;
     }
     @include laptop{
-        height: 63%;
+        height: 77%;
     }
 }
 
 .festivals-text{
     margin: 0.5rem 1rem;
-    font-size: 1.05rem;
+    font-size: 1.35rem;
     @include tablet{
         font-size: 2.5rem;
      } 
     @include laptop{
-       font-size: 2.3rem;
+       font-size: 3.5rem;
     } 
 }
 
@@ -38,7 +38,7 @@
         left: 1rem;
     }
     @include laptop{
-        left: 22.05rem;
+        left: 19.05rem;
     }
 }
 
@@ -48,7 +48,7 @@
         left: 19rem;
     }
     @include laptop{
-        left: 60.1rem;
+        left: 57.1rem;
     }
 }
 
@@ -59,7 +59,7 @@
         left: 37rem;
     }
     @include laptop{
-        left: 98.15rem;
+        left: 95.15rem;
     }
 }
 
@@ -71,7 +71,7 @@
         left: 55rem;
     }
     @include laptop{
-        left: 136.2rem;
+        left: 133.2rem;
     }
 }
 
@@ -89,16 +89,16 @@
     width: 16.5rem;
     align-items: center;
     z-index: 1;
-    font-size: 0.95rem;
+    font-size: 1.25rem;
     @include tablet{
         font-size: 1.8rem;
         height: 37.5rem;
         width: 17rem;
      } 
     @include laptop{
-       font-size: 2rem;
-       height: 46rem;
-       width: 26rem;
+       font-size: 2.8rem;
+       height: 52rem;
+       width: 32rem;
     } 
 }
 
@@ -112,29 +112,29 @@
     width: 14.5rem;
     padding: 1rem;
     transform: rotateY(-180deg);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     @include tablet{
-        font-size: 1.35rem;
+        font-size: 1.4rem;
         height: 35rem;
         width: 15rem;
      } 
     @include laptop{
-       font-size: 1.85rem;
-       height: 44rem;
-       width: 24rem;
+       font-size: 2.3rem;
+       height: 50rem;
+       width: 30rem;
     } 
 }
 
 .festivals-cards-side-front-images{
-    height: 10rem;
-    width: 14rem; 
+    height: 11rem;
+    width: 15rem; 
     @include tablet{
         height: 12rem;
         width: 16rem;
     }
     @include laptop{
-        height: 19rem;
-        width: 23rem;
+        height: 21rem;
+        width: 29rem;
     }
 }
 

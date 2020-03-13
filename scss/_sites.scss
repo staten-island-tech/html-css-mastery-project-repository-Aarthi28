@@ -11,18 +11,18 @@
         height: 34rem;
     }
     @include laptop{
-        height: 28rem;
+        height: 45%;
     }
 }
 
 .sites-text{
     margin: 0.5rem 1rem;
-    font-size: 1.05rem;
+    font-size: 1.35rem;
     @include tablet{
-        font-size: 1.2rem;
+        font-size: 2.5rem;
      } 
     @include laptop{
-       font-size: 2.3rem;
+       font-size: 3.5rem;
     } 
 }
 
@@ -51,8 +51,8 @@
         padding: 1.2rem;
     }
     @include laptop{
-        height: 17rem;
-        width: 25rem;
+        height: 24rem;
+        width: 34rem;
     }
 }
 
@@ -73,7 +73,7 @@
     @include laptop{
         height: 17rem;
         width: 25rem;
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
 
@@ -85,8 +85,8 @@
         left: 11.5%;
     }
     @include laptop{
-        top: 6rem;
-        left: 14rem;
+        top: 8rem;
+        left: 13rem;
     }
 }
 .sites-gallery-text-gateway{
@@ -97,8 +97,8 @@
         left: 30rem;
     }
     @include laptop{
-        top: 6rem;
-        left: 48.5rem;
+        top: 8rem;
+        left: 45.5rem;
     }
 }
 .sites-gallery-text-fort{
@@ -109,8 +109,8 @@
         left: 57rem;
     }
     @include laptop{
-        top: 6rem;
-        left: 89rem;
+        top: 8rem;
+        left: 86rem;
     }
 }
 .sites-gallery-text-temple{
@@ -121,8 +121,8 @@
         left: 12rem;
     }
     @include laptop{
-        top: 6rem;
-        left: 123.5rem;
+        top: 8rem;
+        left: 120.5rem;
     }
 }
 .sites-gallery-text-ganga{
@@ -133,8 +133,8 @@
         left: 49.5rem;
     }
     @include laptop{
-        top: 6rem;
-        left: 161.5rem;
+        top: 8rem;
+        left: 157.5rem;
     }
 }
 
