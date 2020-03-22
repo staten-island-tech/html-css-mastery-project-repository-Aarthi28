@@ -8,7 +8,7 @@
     padding: 1rem;
     height: 37rem;
     @include tablet{
-        height: 34rem;
+        height: 42.5%;
     }
     @include laptop{
         height: 45%;
@@ -46,8 +46,8 @@
     width: 14rem;
     padding: 1rem;
     @include tablet{
-        height: 12rem;
-        width: 18rem;
+        height: 14rem;
+        width: 21rem;
         padding: 1.2rem;
     }
     @include laptop{
@@ -60,19 +60,13 @@
     position: absolute;
     opacity:0;
     color: (color(black));
-    height: 31rem;
-    width: 31rem;
     padding: 1rem;
     font-size: 1.1rem;
     @include tablet{
-        height: 12rem;
-        width: 18rem;
         padding: 1.2rem;
-        font-size: 1.5rem;
+        font-size: 2.1rem;
     }
     @include laptop{
-        height: 17rem;
-        width: 25rem;
         font-size: 3rem;
     }
 }
@@ -82,7 +76,7 @@
     left: 16.5%;
     @include tablet{
         top: 13%;
-        left: 11.5%;
+        left: 10.5%;
     }
     @include laptop{
         top: 8rem;
@@ -93,8 +87,8 @@
     top: 9%;
     left: 63.5%;
     @include tablet{
-        top: 4rem;
-        left: 30rem;
+        top: 13%;
+        left: 40%;
     }
     @include laptop{
         top: 8rem;
@@ -105,8 +99,8 @@
     top: 42%;
     left: 16.5%;
     @include tablet{
-        top: 4rem;
-        left: 57rem;
+        top: 13%;
+        left: 78%;
     }
     @include laptop{
         top: 8rem;
@@ -117,8 +111,8 @@
     top: 42%;
     left: 63.5%;
     @include tablet{
-        top: 18rem;
-        left: 12rem;
+        top: 61%;
+        left: 16%;
     }
     @include laptop{
         top: 8rem;
@@ -129,8 +123,8 @@
     top: 76%;
     left: 40%;
     @include tablet{
-        top: 18rem;
-        left: 49.5rem;
+        top: 61%;
+        left: 68%;
     }
     @include laptop{
         top: 8rem;
