@@ -33,9 +33,9 @@
 }
 
 .festivals-cards-diwali{
-    left: 0.1rem;
+    left: 1rem;
     @include tablet{
-        left: 1rem;
+        left: 2rem;
     }
     @include laptop{
         left: 19.05rem;
@@ -43,9 +43,9 @@
 }
 
 .festivals-cards-holi{
-    left: 17.1rem;
+    left: 18rem;
     @include tablet{
-        left: 19rem;
+        left: 20rem;
     }
     @include laptop{
         left: 57.1rem;
@@ -53,10 +53,11 @@
 }
 
 .festivals-cards-independence{
-    top: 30.1rem;
+    top: 31rem;
+    left: 1rem;
     @include tablet{
         top: 0rem;
-        left: 37rem;
+        left: 38rem;
     }
     @include laptop{
         left: 95.15rem;
@@ -64,11 +65,11 @@
 }
 
 .festivals-cards-rakhi{
-    top: 30.1rem;
-    left: 17.1rem;
+    top: 31rem;
+    left: 18rem;
     @include tablet{
         top: 0rem;
-        left: 55rem;
+        left: 56rem;
     }
     @include laptop{
         left: 133.2rem;

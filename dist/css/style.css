@@ -34,22 +34,16 @@
   -o-object-fit: cover;
      object-fit: cover;
   padding: 0rem 1rem;
-  height: 97%;
-  width: 95.8%;
-}
-
-@media (min-width: 600px) {
-  .india-video {
-    height: 97.8%;
-    width: 97.8%;
-  }
-}
-
-@media (min-width: 900px) {
-  .india-video {
-    height: 97%;
-    width: 99%;
-  }
+  height: 100%;
+  /*width: 95.8%;
+    @include tablet{
+        height: 97.8%;
+        width: 97.8%;
+    }
+    @include laptop{
+        //height: 97%; 
+        //width: 99%;
+    } */
 }
 
 .india-text-box {
@@ -527,12 +521,12 @@
 }
 
 .festivals-cards-diwali {
-  left: 0.1rem;
+  left: 1rem;
 }
 
 @media (min-width: 600px) {
   .festivals-cards-diwali {
-    left: 1rem;
+    left: 2rem;
   }
 }
 
@@ -543,12 +537,12 @@
 }
 
 .festivals-cards-holi {
-  left: 17.1rem;
+  left: 18rem;
 }
 
 @media (min-width: 600px) {
   .festivals-cards-holi {
-    left: 19rem;
+    left: 20rem;
   }
 }
 
@@ -559,13 +553,14 @@
 }
 
 .festivals-cards-independence {
-  top: 30.1rem;
+  top: 31rem;
+  left: 1rem;
 }
 
 @media (min-width: 600px) {
   .festivals-cards-independence {
     top: 0rem;
-    left: 37rem;
+    left: 38rem;
   }
 }
 
@@ -576,14 +571,14 @@
 }
 
 .festivals-cards-rakhi {
-  top: 30.1rem;
-  left: 17.1rem;
+  top: 31rem;
+  left: 18rem;
 }
 
 @media (min-width: 600px) {
   .festivals-cards-rakhi {
     top: 0rem;
-    left: 55rem;
+    left: 56rem;
   }
 }
 
@@ -702,12 +697,13 @@
           transform: rotateY(0deg);
 }
 
-html {
+html, body {
   font-size: 62.5%;
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Teko', sans-serif;
+  overflow-x: hidden;
 }
 /*# sourceMappingURL=style.css.map */
