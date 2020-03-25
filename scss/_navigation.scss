@@ -1,0 +1,91 @@
+@import "./_variables.scss";
+
+.navigation-checkbox{
+    display: none;
+}
+
+.navigation-icon{
+    position: fixed;
+    cursor: pointer;
+    z-index: 20;
+    height: 4rem;
+    top: 2rem;
+    right: 2rem;
+    box-shadow: 3px 0.3rem 0.3rem rgba(color(black), 0.8);
+    @include tablet{
+        height: 6rem;
+    }
+    @include laptop{
+        height: 8rem;
+    }
+}
+
+.navigation-icon:hover{
+    transform: scale(1.2);
+}
+
+.navigation-list{
+    width: 80%;
+    list-style: none;
+    @include tablet{
+        width: 88%;
+    }
+    @include laptop{
+        width: 95%;
+    }
+}
+
+.navigation-item{
+    font-size: 6rem;
+    text-align: center;
+}
+
+.navigation-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(color(black), 1);
+}
+
+.navigation-item:hover{
+    transform: scale(1.2);
+}
+
+.navigation-nav{
+    position: fixed;
+    height: 100vh;
+    top: 14rem;
+    left: 0;
+    z-index: 10;
+    display: none;
+    transition: transform 0.8s;
+}
+
+.navigation-background{
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    display: none;
+    transition: transform 0.8s;
+    animation: pulse 10s infinite;
+}
+
+@keyframes pulse{
+    0% {background-color: rgba(color(white), 1);}
+    25% {background-color: rgba(color(accent), 1);}
+    50% {background-color: rgba(color(white), 1);}
+    75% {background-color: rgba(color(primary), 1);}
+    100% {background-color: rgba(color(white), 1);}
+}
+  
+.navigation-checkbox:checked~.navigation-background{
+    display: block;
+    transform: scale(80);
+}
+
+.navigation-checkbox:checked~.navigation-nav{
+    display: block;
+    width: 100%;
+}

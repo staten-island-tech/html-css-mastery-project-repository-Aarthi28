@@ -1,7 +1,7 @@
 @import "./_variables.scss";
 
 .sites{
-    background-color: rgba(color(secondary), 0.4);
+    background-color: rgba(color(white), 0.4);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -73,7 +73,7 @@
 
 .sites-gallery-text-taj{
     top: 9%;
-    left: 16.5%;
+    left: 17.5%;
     @include tablet{
         top: 13%;
         left: 10.5%;
@@ -85,7 +85,7 @@
 }
 .sites-gallery-text-gateway{
     top: 9%;
-    left: 63.5%;
+    left: 64.5%;
     @include tablet{
         top: 13%;
         left: 40%;
@@ -97,7 +97,7 @@
 }
 .sites-gallery-text-fort{
     top: 42%;
-    left: 16.5%;
+    left: 17.5%;
     @include tablet{
         top: 13%;
         left: 78%;
@@ -109,7 +109,7 @@
 }
 .sites-gallery-text-temple{
     top: 42%;
-    left: 63.5%;
+    left: 64.5%;
     @include tablet{
         top: 61%;
         left: 16%;
@@ -121,7 +121,7 @@
 }
 .sites-gallery-text-ganga{
     top: 76%;
-    left: 40%;
+    left: 41%;
     @include tablet{
         top: 61%;
         left: 68%;

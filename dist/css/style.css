@@ -58,7 +58,7 @@
 }
 
 .culture {
-  background-color: rgba(205, 220, 57, 0.4);
+  background-color: rgba(255, 152, 0, 0.8);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,7 +173,7 @@
 }
 
 .sites {
-  background-color: rgba(48, 63, 159, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -293,7 +293,7 @@
 
 .sites-gallery-text-taj {
   top: 9%;
-  left: 16.5%;
+  left: 17.5%;
 }
 
 @media (min-width: 600px) {
@@ -312,7 +312,7 @@
 
 .sites-gallery-text-gateway {
   top: 9%;
-  left: 63.5%;
+  left: 64.5%;
 }
 
 @media (min-width: 600px) {
@@ -331,7 +331,7 @@
 
 .sites-gallery-text-fort {
   top: 42%;
-  left: 16.5%;
+  left: 17.5%;
 }
 
 @media (min-width: 600px) {
@@ -350,7 +350,7 @@
 
 .sites-gallery-text-temple {
   top: 42%;
-  left: 63.5%;
+  left: 64.5%;
 }
 
 @media (min-width: 600px) {
@@ -369,7 +369,7 @@
 
 .sites-gallery-text-ganga {
   top: 76%;
-  left: 40%;
+  left: 41%;
 }
 
 @media (min-width: 600px) {
@@ -396,7 +396,7 @@
 }
 
 .visit {
-  background-color: rgba(205, 220, 57, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -470,7 +470,7 @@
 }
 
 .festivals {
-  background-color: rgba(255, 152, 0, 0.4);
+  background-color: rgba(205, 220, 57, 0.8);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -656,7 +656,7 @@
 @media (min-width: 600px) {
   .festivals-cards-side-back {
     font-size: 1.4rem;
-    height: 35rem;
+    height: 35.5rem;
     width: 15rem;
   }
 }
@@ -696,6 +696,147 @@
 .festivals-cards:hover .festivals-cards-side-back {
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
+}
+
+.navigation-checkbox {
+  display: none;
+}
+
+.navigation-icon {
+  position: fixed;
+  cursor: pointer;
+  z-index: 20;
+  height: 4rem;
+  top: 2rem;
+  right: 2rem;
+  -webkit-box-shadow: 3px 0.3rem 0.3rem rgba(0, 0, 0, 0.8);
+          box-shadow: 3px 0.3rem 0.3rem rgba(0, 0, 0, 0.8);
+}
+
+@media (min-width: 600px) {
+  .navigation-icon {
+    height: 6rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .navigation-icon {
+    height: 8rem;
+  }
+}
+
+.navigation-icon:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.navigation-list {
+  width: 80%;
+  list-style: none;
+}
+
+@media (min-width: 600px) {
+  .navigation-list {
+    width: 88%;
+  }
+}
+
+@media (min-width: 900px) {
+  .navigation-list {
+    width: 95%;
+  }
+}
+
+.navigation-item {
+  font-size: 6rem;
+  text-align: center;
+}
+
+.navigation-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.navigation-item:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.navigation-nav {
+  position: fixed;
+  height: 100vh;
+  top: 14rem;
+  left: 0;
+  z-index: 10;
+  display: none;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+}
+
+.navigation-background {
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  display: none;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-animation: pulse 10s infinite;
+          animation: pulse 10s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: #ff9800;
+  }
+  50% {
+    background-color: white;
+  }
+  75% {
+    background-color: #cddc39;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: #ff9800;
+  }
+  50% {
+    background-color: white;
+  }
+  75% {
+    background-color: #cddc39;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+.navigation-checkbox:checked ~ .navigation-background {
+  display: block;
+  -webkit-transform: scale(80);
+          transform: scale(80);
+}
+
+.navigation-checkbox:checked ~ .navigation-nav {
+  display: block;
+  width: 100%;
 }
 
 html, body {
