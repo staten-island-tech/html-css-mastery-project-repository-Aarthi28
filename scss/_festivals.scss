@@ -1,7 +1,7 @@
 @import "./_variables.scss";
 
 .festivals{
-    background-color: rgba(color(primary), 0.8);
+    background-color: rgba(color(primary), 0.9);
     display: flex;
     flex-direction: column;
     padding: 0.5rem 1rem;
@@ -85,7 +85,7 @@
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    background-color: rgba(color(white), 0.4);
+    background-color: rgba(color(white), 0.5);
     height: 29rem;
     width: 16.5rem;
     align-items: center;
@@ -108,7 +108,7 @@
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    background-color: rgba(color(gray), 0.4);
+    background-color: rgba(color(white), 0.5);
     height: 27rem;
     width: 14.5rem;
     padding: 1rem;
